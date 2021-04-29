@@ -1,22 +1,3 @@
 body {
   background-color: white;
 }
-
-   
-@media(min-width: 768px) {
-    .container {
-      max-width: 900px; 
-    }     
-  }
-
-@media(min-width: 768px) {
-    .container-fluid {
-      max-width: 1280px;
-    }      
-  }
-
-.intro-section {
-    height: 100%;
-    padding-top: 0px;    
-    padding-bottom: 50px;
-    }
