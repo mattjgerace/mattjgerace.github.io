@@ -7,8 +7,8 @@ p {
   }
 
 .row {
-  margin-right: auto;
-  margin-left: auto;
-  width: 80%;
-  height: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: auto;
+  height: auto;
 }
