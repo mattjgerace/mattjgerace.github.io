@@ -2,13 +2,21 @@ body {
   background-color: white;
 }
 
-p {
-  font-family: Tisa;
+   
+@media(min-width: 768px) {
+    .container {
+      max-width: 900px; 
+    }     
   }
 
-.row {
-  margin-right: 20px;
-  margin-left: 20px;
-  width: auto;
-  height: auto;
-}
+@media(min-width: 768px) {
+    .container-fluid {
+      max-width: 1280px;
+    }      
+  }
+
+.intro-section {
+    height: 100%;
+    padding-top: 0px;    
+    padding-bottom: 50px;
+    }
