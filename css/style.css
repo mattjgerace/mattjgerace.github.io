@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 50%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -18,7 +18,7 @@ body {
 }
 
 .col-25 {
-  width: 10%;
+  width: 25%;
   padding: 0 10px 0 0;
   float: left;
 }
@@ -27,6 +27,7 @@ body {
   width: 75%;
   padding: 0 10px 0 0;
   float: right;
+  margin-right: auto;
 }
 
 .resize {
@@ -38,11 +39,12 @@ body {
   .col-25 {
     width: auto;
     padding-bottom: 10px;
-    float: left;
+    float: none;
 }
   .col-75 {
     width: auto;
     padding-bottom: 10px;
-    float: right;
+    padding-right: 50px;
+    float: none;
   }
 }
