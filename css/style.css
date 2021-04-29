@@ -3,14 +3,13 @@ body {
 }
 
 .row {
-  display: flex;
+  display: flexbox;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
 
 .container {
-  display: flex;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
