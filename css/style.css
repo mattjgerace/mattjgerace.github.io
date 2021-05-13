@@ -1,5 +1,14 @@
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("http://fonts.googleapis.com/css?family=Roberto:400,300,700");
+
+h1 {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 body {
   background-color: white;
+  font-family: 'Roberto', sans-serif !important;
 }
 
 .content {
@@ -7,8 +16,10 @@ body {
   margin: auto;
 }
 
-.resize {
-  width: 200px;
+img {
+  display: block;
+  max-width: 60%;
+  float: right;
   height: auto;
 }
 
