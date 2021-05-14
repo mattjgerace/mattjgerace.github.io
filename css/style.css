@@ -16,10 +16,47 @@ body {
   margin: auto;
 }
 
+.social {
+  display: block;
+  max-width: 60%;
+  float: right;
+  height: auto;
+}
+
 img {
   display: block;
   max-width: 60%;
   float: right;
   height: auto;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 20px
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  background: white;
+  color: inherit;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998 !important;
+  color: white !important;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE !important;
+  color: white !important;
 }
 
