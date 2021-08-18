@@ -34,15 +34,10 @@ label {
   font-size: 12px;
 }
 
-.space {
-  font-size: 8px;
-}
-
-.success {background-color: #04AA6D;} /* Green */
-.info {background-color: #2196F3;} /* Blue */
-.warning {background-color: #ff9800;} /* Orange */
-.danger {background-color: #f44336;} /* Red */
-.other {background-color: #e7e7e7; color: black;} /* Gray */
+.green {background-color: #04AA6D; margin: 3px auto;} /* Green */
+.blue {background-color: #2196F3; margin: 3px auto;} /* Blue */
+.yellow {background-color: #ff9800; margin: 3px auto;} /* Orange */
+.red {background-color: #f44336; margin: 3px auto;} /* Red */
 
 
 .col-sm-4 {
