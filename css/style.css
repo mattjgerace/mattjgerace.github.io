@@ -1,0 +1,51 @@
+
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("http://fonts.googleapis.com/css?family=Roberto:400,300,700");
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.tools {
+  font-size: 25px;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roberto', sans-serif
+}
+
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  max-width: 60%;
+  height: auto;
+}
+
+label {
+  color: white;
+  padding: 8px;
+  font-family: 'Roberto', sans-serif;
+  font-size: 12px;
+}
+
+.space {
+  font-size: 8px;
+}
+
+.success {background-color: #04AA6D;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */
+
+
+.col-sm-4 {
+  float: right;
+}
+
