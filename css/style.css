@@ -2,15 +2,41 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
 @import url("http://fonts.googleapis.com/css?family=Roberto:400,300,700");
 
+
 .name {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  margin-top: 10px;
+  font-size: 40px;
+  margin-left: -4px;
+}
+
+.experiences {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  margin-left: -4px;
+}
+
+.paragraph {
+  font-family: 'Roberto', sans-serif;
+  font-size: 18px;
 }
 
 .tools {
-  font-size: 25px;
+  font-size: 1.7vmax;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.techbox {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
 }
 
 body {
@@ -24,23 +50,25 @@ body {
 }
 
 img {
+  margin-top: 10px;
   display: block;
-  max-width: 60%;
-  height: auto;
+  height: 250px;
+}
+
+.image {
+  flex-shrink: 0;
 }
 
 label {
   color: white;
-  padding: 8px;
+  padding: 4px;
   font-family: 'Roberto', sans-serif;
-  font-size: 12px;
+  font-size: 10px;
 }
 
-.green {background-color: #04AA6D; margin: 3px auto; margin-left: 1px; margin-right: 1px;} /* Green */
-.blue {background-color: #2196F3; margin: 3px auto; margin-left: 1px; margin-right: 1px;} /* Blue */
-.yellow {background-color: #ff9800; margin: 3px auto; margin-left: 1px; margin-right: 1px;} /* Orange */
-.red {background-color: #f44336; margin: 3px auto; margin-left: 1px; margin-right: 1px;} /* Red */
-
+.green {background-color: #658d6d; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
+.yellow {background-color: #e3c565; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
+.red {background-color: #CB4C4E; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
 
 .col-sm-4 {
   float: right;
@@ -49,4 +77,13 @@ label {
 .break {
   flex-basis: 100%;
   height: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:1;
+  margin-bottom: 40px;
 }
