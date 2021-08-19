@@ -1,14 +1,46 @@
-
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
 @import url("http://fonts.googleapis.com/css?family=Roberto:400,300,700");
 
-h1 {
-  font-family: 'Open Sans', sans-serif !important;
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 40px;
+  margin-left: -4px;
+}
+
+.experiences {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  margin-left: -4px;
+}
+
+.paragraph {
+  font-family: 'Roberto', sans-serif;
+  font-size: 18px;
+}
+
+.tools {
+  font-size: 1.7vmax;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.techbox {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
 }
 
 body {
   background-color: white;
-  font-family: 'Roberto', sans-serif !important;
+  font-family: 'Roberto', sans-serif
 }
 
 .content {
@@ -16,47 +48,41 @@ body {
   margin: auto;
 }
 
-.social {
-  display: block;
-  max-width: 60%;
-  float: right;
-  height: auto;
-}
-
 img {
+  margin-top: 15px;
   display: block;
-  max-width: 60%;
+  height: 250px;
+}
+
+.image {
+  flex-shrink: 0;
+}
+
+label {
+  color: white;
+  padding: 4px;
+  font-family: 'Roberto', sans-serif;
+  font-size: 10px;
+}
+
+.green {background-color: #658d6d; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
+.yellow {background-color: #e3c565; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
+.red {background-color: #CB4C4E; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
+
+.col-sm-4 {
   float: right;
-  height: auto;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px 20px
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
 
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-  background: white;
-  color: inherit;
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:1;
+  margin-bottom: 40px;
 }
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.fa-facebook {
-  background: #3B5998 !important;
-  color: white !important;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE !important;
-  color: white !important;
-}
-
