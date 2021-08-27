@@ -5,7 +5,7 @@
 .name {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 40px;
   margin-left: -4px;
 }
@@ -26,8 +26,9 @@
   font-size: 1.7vmax;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: -55px;
   margin-bottom: 5px;
+  padding-top: 70px; 
 }
 
 .techbox {
@@ -40,7 +41,7 @@
 
 body {
   background-color: white;
-  font-family: 'Roberto', sans-serif
+  font-family: 'Roberto', sans-serif;
 }
 
 .content {
@@ -49,7 +50,7 @@ body {
 }
 
 img {
-  margin-top: 15px;
+  margin-top: 20px;
   display: block;
   height: 250px;
 }
