@@ -23,7 +23,7 @@
 }
 
 .tools {
-  font-size: 1.4vmax;
+  font-size: 1.6vmax;
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   margin-top: -65px;
@@ -42,6 +42,7 @@
 body {
   background-color: white;
   font-family: 'Roberto', sans-serif;
+  padding-bottom:25px;
 }
 
 .content {
@@ -86,4 +87,34 @@ label {
   width: 100%; /* Full width */
   z-index:1;
   margin-bottom: 40px;
+}
+
+.btn-primary{
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.copyright {
+  position: fixed; 
+  bottom: 5px;
+  left: 5px
+}
+
+body {
+  background-color: white;
+  font-family: 'Roberto', sans-serif;
+  padding-bottom:25px;
+}
+
+footer {
+  bottom: 0;
+  color: #707070;
+  line-height: 2em;
+  padding: 0.5em 0;
+  font-size: small;
+  width:100%;
+}
+
+html {
+  position:relative;
+  min-height:100%;
 }
