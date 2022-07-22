@@ -92,7 +92,9 @@ label {
 .btn-primary{
   margin-left: 1px;
   margin-right: 1px;
+  z-index: 1;
 }
+
 .copyright {
   position: fixed; 
   bottom: 5px;
