@@ -82,18 +82,17 @@ label {
 
 .navbar {
   overflow: hidden;
-  position: relative; /* Set the navbar to fixed position */
+  position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   margin-bottom: 40px;
-  z-index: 10000;
+  z-index: 1000;
 }
 
 .btn-primary{
   margin-left: 1px;
   margin-right: 1px;
   z-index: 1;
-  position: relative;
 }
 
 .copyright {
