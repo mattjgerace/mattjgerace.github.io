@@ -6,11 +6,19 @@
   .t {
     display: none;
   }
+  .e {
+    display: none;
+  }
 }
 
 #projects {
   display: none;
 }
+
+.b {
+  display: none;
+}
+
 .name {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
