@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+dist
+tmp
+/personal-website/public
+/resources/_gen/
