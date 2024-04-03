@@ -55,15 +55,15 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+        working-directory: ./personal-website
         run: |
-          cd personal-website &&
           hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
+        working-directory: ./personal-website
         uses: actions/upload-pages-artifact@v3
-        run: cd personal-website
         with:
           path: ./public
 
