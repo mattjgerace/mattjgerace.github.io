@@ -3,4 +3,5 @@ node_modules
 dist
 tmp
 /personal-website/public
+/personal-website/static/js
 /resources/_gen/
