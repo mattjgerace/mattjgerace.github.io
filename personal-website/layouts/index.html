@@ -1,41 +1,5 @@
-<html>
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Matthew Gerace">
-    <meta name="description" property="description" content="This is a personal website for and created by Matthew Gerace">
-    <meta name="keywords" content="matthewgerace matthew gerace matthewjgerace software engineer">
 
-    <html lang="en" prefix="og: http://ogp.me/ns#"/>
-    <meta property="og:title" content="Matthew Gerace: Personal Website"/>
-    <meta name="image" property="og:image" content="/images/myself.png"/>
-    <meta name="description" property="og:description" content="More about myself, my experiences, and my practiced tools and technologies"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="http://matthewgerace.dev"/>
-
-    <link rel="icon" href="/images/favicon.ico">
-   
-    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-180x180.png">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/css/main.css">
-    <title> Matthew Gerace </title>
-    </head>
-    <body>
+  {{ define "main" }}
     <a name="top">
       <h2 style="padding-top: 55px; margin-top: -55px;"></h2>
     </a>
@@ -65,7 +29,7 @@
             <div class="row">
                    <div class ="col-sm-4">
                           <div class="row justify-content-center">
-                            <img class="img" src="/images/myself.JPEG" alt="Pircture of author, Matthew Gerace"/>
+                            <img class="img" src="/img/myself.JPEG" alt="Pircture of author, Matthew Gerace"/>
                           </div>
                         <div id="social" class="row justify-content-center">
                         <!-- Twitter -->
@@ -80,15 +44,7 @@
                         <!-- Github -->
                         <a class="btn btn-primary" style="background-color: #000836; border-color: #000836;" href="https://github.com/mattjgerace" role="button"><i class="fa fa-github"></i></a>
                         </div>
-                   </div>
-                   <div class ="col-sm-8">
-                    <h2 class="name">Matthew Gerace</h2>
-                    <p class="paragraph" style="word-wrap: break-word; width: 90%">
-                    I am a student at the <a href="https://www.virginia.edu/">University of Virginia</a> in the School of <a href="https://engineering.virginia.edu/">Engineering and Applied Science</a>. Specifically, I study <a href="https://engineering.virginia.edu/departments/computer-science">Computer Science</a> and <a href="https://statistics.as.virginia.edu/">Statistics</a>, and plan to complete the <a href="https://engineering.virginia.edu/departments/engineering-and-society/entrepreneurship-and-business">Engineering Business Minor</a>. I am extremely fascinated by learning new and perfecting known computational skills. Additionally, I am passionate about fostering my abilities to create applications and models that enhance everyday life. I am drawn to complex problems, and even more so captivated by deriving elegant solutions. My personal work and research typically reflects my strong interest in Full-Stack and Backend Development as well as exploring modern front-end frameworks. While enjoying my undergraduate experience at the University of Virginia, I look forward to further broadening my breadth of knowledge, opportunities, and experiences.
-                    </p>
-                  </div>
-                   <div class="col-sm-4">
-                          <div class="row justify-content-center">
+                        <div class="row justify-content-center">
                           <h2 class="tools" id="t">Tools and Technologies</h2>
                         <div class="techbox">
                           <label class="green">TypeScript</label>
@@ -142,22 +98,12 @@
                           <label class="red">MIPS</label>
                 </div>
               </div>
-            </div>
-            <div class ="col-sm-8">
-              <a name="e">
-              <h2 class="experiences" style="padding-top: 60px; margin-top: -60px;">Experience</h2>
-              </a>
-              <p class="paragraph" style="word-wrap: break-word; width: 90%">
-              My early professional career is diverse. I seek out opportunities that truly excite me and offer new perspectives. I spent months as a DevOps manager developing a University Web Application, interned for two technology startups, researched and presented on various hospital acquired infections, volunteer to establish a sustainable housing community, and represent my class through student council. As
-              I am fully immersed into a new opportunity, I continously find satisfaction in reaching solutions, breakthroughs, or accomplishments. I am thankful for how each experience has shaped my mindset and skills and has even inspired me in my own projects. There is something valuable I have taken away from each project, team member, and situation.
-              </p>
-              <p class="paragraph" style="word-wrap: break-word; width: 90%">
-              Currently, I work as an undergraduate researcher with the <a href="https://biocomplexity.virginia.edu/">UVA Biocomplexity Insitute</a> in the Network Systems Science and Advanced Computing (NSAAC) divison. Here I have collaborated closely with Dr. Anil Vullikanti and Dr. Chen Chen on finding solutions to reduce the spread of hospital aquired infections using data science, graph theory, and machine learning algorithms. Please check back to my page soon for future publications and more information.
-              </p>
-              <p class="paragraph" style="word-wrap: break-word; width: 90%">
-              This summer, I had the privilege to intern as a Software Engineer for <a href="https://www.legnasoftware.com/">Legna Software</a>.
-              </p>
-            </div>
+                   </div>
+                   <div class ="col-sm-8">
+                    <p class="paragraph" style="word-wrap: break-word; width: 90%">
+                      {{ .Content }}
+                    </p>
+                  </div>
             <!--
             <div class="col-sm-12" id="projects">
               <h2 class="projects" style="padding-top: 60px; margin-top: -60px;">Featured Projects</h2>
@@ -189,5 +135,5 @@
           </div>
         </div>
       </section>
-  </body>
-</html>
+      <my-element>Hey Listen!</my-element>
+  {{ end }}
