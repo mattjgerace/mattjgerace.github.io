@@ -48,9 +48,8 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Install Vite
-        run: npm i vite
       - name: Install Node.js dependencies
+        working-directory: ./personal-website
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build Lit with Vite
         working-directory: ./personal-website
