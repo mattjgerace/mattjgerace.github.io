@@ -12,7 +12,7 @@ My early professional career is diverse. I seek out opportunities that truly exc
 
 As a student, I worked as an undergraduate researcher with the [UVA Biocomplexity Insitute](https://biocomplexity.virginia.edu/) in the Network Systems Science and Advanced Computing (NSAAC) divison. Here I have collaborated closely with established researchers on finding solutions to reduce the spread of hospital aquired infections using data science, graph theory, and machine learning algorithms.
 
-During my undergrauate carrer, I also interned as a Software Engineer for [Legna Software](https://www.legnasoftware.com/).
+During my undergraduate carrer, I also interned as a Software Engineer for [Legna Software](https://www.legnasoftware.com/).
 
 I currently work for as a Software Engineer for [Annalect](https://www.annalect.com/).
 
