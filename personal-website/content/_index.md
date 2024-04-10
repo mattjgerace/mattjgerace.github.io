@@ -4,7 +4,7 @@ draft = false
 +++
 
 ### **Matthew Gerace**
-I am a Software Engineer in New York City passionate about fostering my abilities to create applications and models that enhance everyday experiences. Learning new and perfecting known computational skills fascinates me. I am drawn to complex problems, and even more so captivated by deriving elegant solutions. My personal work and research typically reflect my strong interest in Full-Stack and Backend Development as well as exploring modern frameworks and cutting-edge technologies. I perpetually find joy in broadening my breadth of knowledge and experiences.
+I am a Software Engineer in New York City passionate about fostering my abilities to create applications and models that enhance everyday experiences. Learning new and perfecting known computational skills fascinates me. I am drawn to complex problems, and even more so captivated by deriving elegant solutions. My personal work and research typically reflect my strong interest in Full-Stack and Back-End Development as well as exploring modern frameworks and cutting-edge technologies. I perpetually find joy in broadening my breadth of knowledge and experiences.
 
 ### **Experience**
 
