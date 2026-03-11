@@ -10,9 +10,9 @@ I am a Software Engineer in New York City passionate about fostering my abilitie
 
 My early professional career is diverse. I seek out opportunities that truly excite me, offer new perspectives, and encourage learning. As I am fully immersed into a new opportunity, I continuously find satisfaction in reaching solutions, breakthroughs, or improvements. I am thankful for how each experience has shaped my mindset and skills and has even inspired me in my own projects. There is something valuable I have taken away from each project, team member, and situation.
 
-I currently work as a Software Engineer for [Annalect](https://www.annalect.com/).
+I currently work as a Software Engineer for [Annalect](https://www.annalect.com/) as a part of the [Omnicom Media Group](https://www.omc.com/). Omnicom is the world's largest marketing and sales company.
 
-During my undergraduate career, I interned as a Software Engineer for [Legna Software](https://www.legnasoftware.com/).
+During my undergraduate career, I interned as a Software Engineer for [Legna Software](https://www.legnasoftware.com/) where I pioneered AI ticket recognition in the forestry industry leveraging neural networks.
 
 As a student, I also worked as an undergraduate researcher with the [UVA Biocomplexity Insitute](https://biocomplexity.virginia.edu/) in the Network Systems Science and Advanced Computing (NSAAC) division. Here I collaborated closely with established researchers on finding solutions to reduce the spread of hospital acquired infections, such as MRSA using data science, graph theory, and machine learning algorithms.
 

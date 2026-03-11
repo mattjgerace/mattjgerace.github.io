@@ -1,178 +1,120 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
-@import url("http://fonts.googleapis.com/css?family=Roberto:400,300,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,700");
 
-
-@media only screen and (min-width: 576px) {
-  .t {
-    display: none;
-  }
-  .e {
-    display: none;
-  }
-}
-
-
-
-.b {
-  display: none;
-}
-
-.name {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  margin-top: 15px;
-  font-size: 40px;
-  margin-left: -4px;
-}
-
-.experiences {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-size: 35px;
-  margin-left: -4px;
-}
-
-.projects {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  font-size: 35px;
-  display: block;
-  margin: auto;
-  text-align: center;
-  
-}
-
-.paragraph {
-  font-family: 'Roberto', sans-serif;
-  font-size: 18px;
-}
-
-.tools {
-  font-size: 1.6vmax;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-  margin-top: -65px;
-  margin-bottom: 5px;
-  padding-top: 80px; 
-}
-
-.techbox {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 30px;
+main {
+    padding-top: 80px;
 }
 
 body {
-  background-color: white;
-  font-family: 'Roberto', sans-serif;
-  padding-bottom:25px;
-}
-
-.content {
-  max-width: 960px;
-  margin: auto;
-}
-
-img {
-  margin-top: 20px;
-  display: block;
-  height: 250px;
-}
-
-.image {
-  flex-shrink: 0;
-}
-
-label {
-  color: white;
-  padding: 4px;
-  font-family: 'Roberto', sans-serif;
-  font-size: 10px;
-}
-
-.green {background-color: #658d6d; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
-.yellow {background-color: #e3c565; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
-.red {background-color: #CB4C4E; margin: 1.5px auto; margin-left: -1.5px; margin-right: -1.5px;}
-
-.col-sm-4 {
-  float: right;
-}
-
-.break {
-  flex-basis: 100%;
-  height: 0;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 25px;
 }
 
 .navbar {
-  overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  margin-bottom: 40px;
-  z-index: 1000;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 40px;
+    z-index: 1000;
 }
 
-.btn-primary{
-  margin-left: 1px;
-  margin-right: 1px;
-  z-index: 1;
+.profile-card {
+    text-align: center;
 }
 
-.copyright {
-  position: fixed; 
-  bottom: 5px;
-  left: 5px
+#social {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  margin-top: 15px;
-  text-align: center;
-  display: inline-block;
+#social .btn-primary {
+    flex: 1;
+    margin: 0 1px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
 
-.title {
-  color: grey;
-  font-size: 18px;
+.fa, .fas {
+    line-height: 1;
 }
 
-.view {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+.tools {
+    font-size: 1.6vmax;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
 }
 
-.view:hover {
-  opacity: 0.7;
+.techbox {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding-bottom: 30px;
 }
 
-body {
-  background-color: white;
-  font-family: 'Roberto', sans-serif;
-  padding-bottom:25px;
+.techbox label {
+    display: inline-block;
+    margin: 2px 0;
+    padding: 5px 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    border-radius: 3px;
+    color: white;
+    white-space: nowrap;
 }
 
-footer {
-  bottom: 0;
-  color: #707070;
-  line-height: 2em;
-  padding: 0.5em 0;
-  font-size: small;
-  width:100%;
+.green {
+    background-color: #658d6d;
+}
+
+.yellow {
+    background-color: #e3c565;
+}
+
+.red {
+    background-color: #CB4C4E;
+}
+
+.paragraph {
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+img.profile-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 19% center;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    scroll-margin-top: 65px;
 }
 
 html {
-  position:relative;
-  min-height:100%;
+    position: relative;
+    min-height: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+    .t {
+        display: none;
+    }
+
+    .exp {
+        display: none;
+    }
+
+    .edu {
+        display: none;
+    }
 }
