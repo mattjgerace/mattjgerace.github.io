@@ -4,3 +4,19 @@ title = 'Matthew Gerace'
 
 [params]
 favicon = "img/favicon.ico"
+
+[permalinks]
+posts = "/blog/:slug/"
+
+[taxonomies]
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
